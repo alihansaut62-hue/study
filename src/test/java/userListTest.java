@@ -9,7 +9,7 @@ public class userListTest {
 
     @Before
     public void setUp() throws Exception {
-        userList = new userList();
+        userList = new user();
         for (int i = 0 ; i < 100; i++){
             userList.add(new User("naim"+ i,i));
         }
